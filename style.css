@@ -71,15 +71,6 @@ body::before {
   margin: 16px 0 16px 0;
 }
 
-.texto__titulo {
-  padding-top: 3rem;
-  font-size: 50px;
-  text-align: left;
-}
-
-.texto__paragrafo {
-  font-size: 32px;
-}
 .container__texto-azul {
   color: #1875e8;
 }
@@ -118,19 +109,8 @@ button {
   font-weight: 400;
 }
 
-.container__botao:hover {
-  background: #2b8aff;
-  font-size: 30px;
-  transition: 0.5s;
-}
-
 button:disabled {
   background-color: gray;
-}
-
-button:disabled:hover {
-  background-color: gray;
-  font-size: 24px;
 }
 
 @media screen and (max-width: 1250px) {
